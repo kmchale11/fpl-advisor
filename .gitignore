@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Builds
+dist/
+build/
+.expo/
+web-build/
+*.tsbuildinfo
+
+# Native
+ios/Pods/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# Data caches (re-downloaded by ingestion jobs)
+data/cache/
+
+# Logs and OS
+*.log
+npm-debug.log*
+.DS_Store
+coverage/
